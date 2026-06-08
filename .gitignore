@@ -1,0 +1,45 @@
+# Global
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+!.env.production
+*.pem
+*.ppk
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+.project
+.classpath
+.settings/
+
+# Spring Boot Backend (hexashop-backend)
+hexashop-backend/target/
+hexashop-backend/!.mvn/wrapper/maven-wrapper.jar
+hexashop-backend/!**/src/main/**/target/
+hexashop-backend/!**/src/test/**/target/
+hexashop-backend/.apt_generated
+hexashop-backend/.factorypath
+hexashop-backend/.springBeans
+hexashop-backend/.sts4-cache
+hexashop-backend/build/
+
+# React Frontend (hexashop-react)
+hexashop-react/node_modules/
+hexashop-react/dist/
+hexashop-react/dist-ssr/
+hexashop-react/*.local
+hexashop-react/npm-debug.log*
+hexashop-react/yarn-debug.log*
+hexashop-react/yarn-error.log*
+hexashop-react/pnpm-debug.log*
+hexashop-react/.eslintcache
+
+# AI Agents
+.agents
