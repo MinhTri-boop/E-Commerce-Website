@@ -194,4 +194,4 @@ E-Comerce-Web/
   - [Hướng dẫn Tích hợp API cho Frontend](./doc/frontend/backend_integration_guide.md)
 
 ---
-*Thiết kế và Phát triển bởi đội ngũ HexaShop.*
+*Thiết kế và Phát triển bởi Minh Trúy*
